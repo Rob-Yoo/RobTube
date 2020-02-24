@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        <script src="https://kit.fontawesome.com/4c684096a1.js" crossorigin="anonymous"></script>
+        title #{pageTitle} | #{siteName}
+    body
+        include ../partial/header
+        main
+            block content
+        include ../partial/footer
+            
+
+<!-- 모든 pug파일에 기본형식, main안의 내용이 화면에 보여질 것이고 서로 다르게 작성될 것! -->
